@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+	color: rgb(0, 0, 0);
+}
+
+
+
+header {
+	display: flex;
+	width: 95%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,
+.nav-links  {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+    margin-top: 20px;
+}
+.logo {
+	font-weight: 400;
+
+	
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+    color: rgb(10, 6, 1);
+	justify-content: space-around;
+	list-style: none;
+	padding-top: 35px;
+}
+.nav-link {
+    color: rgb(241, 152, 42);
+	font-size: 18px;
+	text-decoration: none;
+    
+}
+
+.welcom{
+    background-image: url(./assets/ship.jpeg);
+   padding: 200px ;
+    margin: 50px ;
+	
+	
+    
+}
+
+h1 {
+    color: rgb(228, 116, 24);
+	padding-bottom: 60px;
+	text-align: left;
+	font-family: 'Bebas Neue', cursive;
+	word-spacing: 20px;
+	letter-spacing: 10px;
+}
+
+h2{
+
+	color: rgb(30, 121, 196);
+	padding-bottom: 50px;
+	text-align: left;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.history{
+	padding-top: 10px;
+    margin: 50px;
+	
+}
+
+.heroes{
+	padding-top: 90px;
+	margin: 50px;
+}
+
+.heroe-container{
+	display: flex;
+	justify-content: space-between ;
+	
+	
+}
+
+
+h4 {
+	text-align: center;
+}
+
+h3{
+	color:rgb(30, 121, 196) ;
+	text-align: center;
+}
+
+.table {
+   margin:50px ;
+    width: 95%;
+
+}
+
+.inv{
+	padding-top: 60px ;
+	margin: 50px;
+}
+
+p{
+	font-family: 'Signika', sans-serif;
+}
+
+.inventory{
+	padding-top: 90px;
+	margin: 50px;
+
+}
+
+.form-group{
+	
+    width: 30%;
+
+}
+
+.form-group{
+	margin:20px ;
+    width: 30%;
+	margin-left: -8px;
+
+}
+
+.btn{
+	margin-left: -8px;
+}
+
+
+.contact { 
+	padding-top: 90px;
+	margin: 50px;
+
+
+}
