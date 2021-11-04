@@ -1,10 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Satisfy&family=Signika:wght@300;500&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 	color: rgb(0, 0, 0);
+	
 }
+
+
 
 
 
@@ -46,7 +49,7 @@ nav {
     
 }
 
-.welcom{
+.welcome{
     background-image: url(./assets/ship.jpeg);
    padding: 200px ;
     margin: 50px ;
@@ -56,17 +59,18 @@ nav {
 }
 
 h1 {
-    color: rgb(228, 116, 24);
+    color: rgb(238, 0, 0);
 	padding-bottom: 60px;
 	text-align: left;
 	font-family: 'Bebas Neue', cursive;
-	word-spacing: 20px;
+	word-spacing: 17px;
 	letter-spacing: 10px;
 }
 
 h2{
 
 	color: rgb(30, 121, 196);
+	font-size: 150 px;
 	padding-bottom: 50px;
 	text-align: left;
 	font-family: 'Bebas Neue', cursive;
@@ -92,10 +96,6 @@ h2{
 }
 
 
-h4 {
-	text-align: center;
-}
-
 h3{
 	color:rgb(30, 121, 196) ;
 	text-align: center;
@@ -113,7 +113,9 @@ h3{
 }
 
 p{
-	font-family: 'Signika', sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-weight: bold;
+	font-size: large;
 }
 
 .inventory{
@@ -122,27 +124,27 @@ p{
 
 }
 
-.form-group{
-	
-    width: 30%;
-
-}
-
-.form-group{
-	margin:20px ;
-    width: 30%;
-	margin-left: -8px;
-
-}
-
-.btn{
-	margin-left: -8px;
-}
-
-
 .contact { 
 	padding-top: 90px;
-	margin: 50px;
-
-
+	margin: 55px;
 }
+
+
+ 
+  input, textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+	border-color: #000;
+  }
+  
+  textarea {
+	vertical-align: top;
+	height: 5em;
+  }
+  
+  
